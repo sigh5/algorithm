@@ -114,5 +114,8 @@
     <ClCompile Include="1,2,3더하기.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="토마토_복습.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
