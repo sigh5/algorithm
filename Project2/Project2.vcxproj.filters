@@ -117,5 +117,8 @@
     <ClCompile Include="토마토_복습.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="부녀회장이될테야.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
