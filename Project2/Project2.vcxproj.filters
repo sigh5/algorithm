@@ -120,5 +120,14 @@
     <ClCompile Include="부녀회장이될테야.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Null_Obj_State_Pattencpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="숨바꼭질.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1로만들기.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
