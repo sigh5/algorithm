@@ -1,22 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="01. DesingPattern">
+      <UniqueIdentifier>{e2f8028f-b9d0-4a9d-bbdd-0547c42a4c4e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="01. DesingPattern\01. State">
+      <UniqueIdentifier>{aa453e4a-14fd-484b-a951-c620d2d71f84}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="01. DesingPattern\00. Strategy">
+      <UniqueIdentifier>{508be79d-f94e-4b48-9a2a-5658ce36176d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Main">
+      <UniqueIdentifier>{220b3bbb-f011-4ad2-978f-8c140b49a767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. PreHeader">
+      <UniqueIdentifier>{87a7d96b-a54d-4037-a9c2-be968626ec17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. DesingPattern\02. Actor">
+      <UniqueIdentifier>{093c62a3-08f0-4e31-8137-ea8daeac64d7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StrategyPattern.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>01. DesingPattern\00. Strategy</Filter>
     </ClCompile>
+    <ClCompile Include="MainAppcpp.cpp">
+      <Filter>00. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="State.cpp">
+      <Filter>01. DesingPattern\01. State</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PreHeader.h">
+      <Filter>02. PreHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyPattern.h">
+      <Filter>01. DesingPattern\00. Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="State.h">
+      <Filter>01. DesingPattern\01. State</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

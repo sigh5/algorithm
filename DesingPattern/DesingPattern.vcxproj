@@ -114,7 +114,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="MainAppcpp.cpp" />
+    <ClCompile Include="State.cpp" />
     <ClCompile Include="StrategyPattern.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="PreHeader.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StrategyPattern.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
