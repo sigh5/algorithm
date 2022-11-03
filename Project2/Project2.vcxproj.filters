@@ -132,5 +132,11 @@
     <ClCompile Include="Std_Function.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="연결요소의개수_복습.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치함수.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
