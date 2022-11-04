@@ -19,29 +19,17 @@
     <Filter Include="Resource Files\자료구조">
       <UniqueIdentifier>{27ad3202-1566-4bfa-a8e4-2d5420790e69}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Graph">
+      <UniqueIdentifier>{4e08c237-557b-41de-a3c6-8da284dcbe95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DP">
+      <UniqueIdentifier>{0cc363d3-58c3-4727-a756-d03237668ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\자잘한 연습">
+      <UniqueIdentifier>{29f74ba4-b8f5-45a1-9e66-cda768822e9c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DFS_BFS복습.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="미로탐색_복습.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="동적계획법복습.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Errorcode.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="바이러스복습.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="설탕배달.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="단지번호붙이기_복습.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="HeapTree.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
@@ -105,38 +93,62 @@
     <ClCompile Include="우선순위큐_연습.cpp">
       <Filter>Resource Files\자료구조</Filter>
     </ClCompile>
-    <ClCompile Include="연구소.cpp">
-      <Filter>Resource Files\Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="유기농배추복습.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="1로만들기.cpp">
+      <Filter>Source Files\DP</Filter>
     </ClCompile>
     <ClCompile Include="1,2,3더하기.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\DP</Filter>
     </ClCompile>
-    <ClCompile Include="토마토_복습.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="DFS_BFS복습.cpp">
+      <Filter>Source Files\Graph</Filter>
     </ClCompile>
-    <ClCompile Include="부녀회장이될테야.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Errorcode.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
     </ClCompile>
     <ClCompile Include="Null_Obj_State_Pattencpp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="숨바꼭질.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="1로만들기.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\자잘한 연습</Filter>
     </ClCompile>
     <ClCompile Include="Std_Function.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="단지번호붙이기_복습.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="동적계획법복습.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="바이러스복습.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="미로탐색_복습.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="토마토_복습.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="유기농배추복습.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="연구소_복습.cpp">
+      <Filter>Source Files\Graph</Filter>
     </ClCompile>
     <ClCompile Include="연결요소의개수_복습.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="부녀회장이될테야.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="설탕배달.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="숨바꼭질.cpp">
+      <Filter>Source Files\Graph</Filter>
     </ClCompile>
     <ClCompile Include="피보나치함수.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="2N타일링.cpp">
+      <Filter>Source Files\DP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

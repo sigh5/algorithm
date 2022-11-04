@@ -115,15 +115,49 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Actor.cpp" />
-    <ClCompile Include="MainAppcpp.cpp" />
+    <ClCompile Include="Base_Item.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Cindependent.cpp" />
+    <ClCompile Include="COverrideTestMain.cpp" />
+    <ClCompile Include="HpBar.cpp" />
+    <ClCompile Include="Item1.cpp" />
+    <ClCompile Include="Item2.cpp" />
+    <ClCompile Include="Item3.cpp" />
+    <ClCompile Include="MainAppObserver.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="MainAppStatecpp.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Monster_Base.cpp" />
+    <ClCompile Include="MpBar.cpp" />
+    <ClCompile Include="Pawn.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="StrategyPattern.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="UI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Actor.h" />
+    <ClInclude Include="Base_Item.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Cindependent.h" />
+    <ClInclude Include="HpBar.h" />
+    <ClInclude Include="Item1.h" />
+    <ClInclude Include="Item2.h" />
+    <ClInclude Include="Item3.h" />
+    <ClInclude Include="Monster_Base.h" />
+    <ClInclude Include="MpBar.h" />
+    <ClInclude Include="Pawn.h" />
     <ClInclude Include="PreHeader.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="StrategyPattern.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="UI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -6,6 +6,7 @@
 #include <string>
 #include <functional>
 #include <memory.h>
+#include <list>
 using namespace std;
 
 

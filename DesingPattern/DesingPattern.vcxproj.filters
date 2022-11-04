@@ -19,18 +19,105 @@
     <Filter Include="01. DesingPattern\02. Actor">
       <UniqueIdentifier>{093c62a3-08f0-4e31-8137-ea8daeac64d7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="01. DesingPattern\03. Observer">
+      <UniqueIdentifier>{dfd549cf-a53e-4104-b2a7-6b198adbe8bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. DesingPattern\04. TestObserver">
+      <UniqueIdentifier>{2f0765cb-1f1e-4f07-b186-71d304e688dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. DesingPattern\04. TestObserver\UI">
+      <UniqueIdentifier>{98b8a846-37f3-450d-b982-3101f6feecef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. DesingPattern\04. TestObserver\UI\HpBar">
+      <UniqueIdentifier>{1cc0c243-55c1-4199-baa9-e7baf252e5b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. DesingPattern\04. TestObserver\UI\MpBar">
+      <UniqueIdentifier>{e5a22190-c0f2-4925-8619-81632cc2d81e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. DesingPattern\04. TestObserver\Monster">
+      <UniqueIdentifier>{feb1bc9d-8cfe-44d2-a7fd-b1307b52a958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. DesingPattern\04. TestObserver\Monster\Boss">
+      <UniqueIdentifier>{58bd8c49-9a85-4df8-b4eb-062fdc43ef56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LastTest">
+      <UniqueIdentifier>{c884392c-72f8-4524-a077-62701403e41e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LastTest\Pawn">
+      <UniqueIdentifier>{74fe4c7e-a648-487b-8e36-d82a2f420035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LastTest\Item">
+      <UniqueIdentifier>{210cda07-56c3-45b9-a30b-67ead1f908d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LastTest\Item\Item1">
+      <UniqueIdentifier>{f895bbf2-2e45-4bff-ab6e-4ebdb50aad8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LastTest\Item\item2">
+      <UniqueIdentifier>{9d45a171-2744-4af8-89e9-6d912f3953da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LastTest\Item\item3">
+      <UniqueIdentifier>{f342059e-b64e-4596-9947-ec201f3a1a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LastTest\independentCom">
+      <UniqueIdentifier>{6176c713-1970-4c59-a63a-3af84099ad8d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StrategyPattern.cpp">
       <Filter>01. DesingPattern\00. Strategy</Filter>
     </ClCompile>
-    <ClCompile Include="MainAppcpp.cpp">
-      <Filter>00. Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Actor.cpp" />
     <ClCompile Include="State.cpp">
       <Filter>01. DesingPattern\01. State</Filter>
     </ClCompile>
+    <ClCompile Include="MainAppStatecpp.cpp">
+      <Filter>00. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MainAppObserver.cpp">
+      <Filter>00. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>01. DesingPattern\02. Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>01. DesingPattern\03. Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>01. DesingPattern\03. Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="COverrideTestMain.cpp">
+      <Filter>00. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>01. DesingPattern\04. TestObserver\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Base.cpp">
+      <Filter>01. DesingPattern\04. TestObserver\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="HpBar.cpp">
+      <Filter>01. DesingPattern\04. TestObserver\UI\HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="MpBar.cpp">
+      <Filter>01. DesingPattern\04. TestObserver\UI\MpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>01. DesingPattern\04. TestObserver\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.cpp">
+      <Filter>LastTest\Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="Base_Item.cpp">
+      <Filter>LastTest\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item1.cpp">
+      <Filter>LastTest\Item\Item1</Filter>
+    </ClCompile>
+    <ClCompile Include="Item2.cpp">
+      <Filter>LastTest\Item\item2</Filter>
+    </ClCompile>
+    <ClCompile Include="Item3.cpp">
+      <Filter>LastTest\Item\item3</Filter>
+    </ClCompile>
+    <ClCompile Include="Cindependent.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PreHeader.h">
@@ -39,9 +126,48 @@
     <ClInclude Include="StrategyPattern.h">
       <Filter>01. DesingPattern\00. Strategy</Filter>
     </ClInclude>
-    <ClInclude Include="Actor.h" />
     <ClInclude Include="State.h">
       <Filter>01. DesingPattern\01. State</Filter>
     </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>01. DesingPattern\02. Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>01. DesingPattern\03. Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>01. DesingPattern\03. Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>01. DesingPattern\04. TestObserver\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_Base.h">
+      <Filter>01. DesingPattern\04. TestObserver\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="HpBar.h">
+      <Filter>01. DesingPattern\04. TestObserver\UI\HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="MpBar.h">
+      <Filter>01. DesingPattern\04. TestObserver\UI\MpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>01. DesingPattern\04. TestObserver\Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>LastTest\Pawn</Filter>
+    </ClInclude>
+    <ClInclude Include="Base_Item.h">
+      <Filter>LastTest\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item1.h">
+      <Filter>LastTest\Item\Item1</Filter>
+    </ClInclude>
+    <ClInclude Include="Item2.h">
+      <Filter>LastTest\Item\item2</Filter>
+    </ClInclude>
+    <ClInclude Include="Item3.h">
+      <Filter>LastTest\Item\item3</Filter>
+    </ClInclude>
+    <ClInclude Include="Cindependent.h" />
   </ItemGroup>
 </Project>
