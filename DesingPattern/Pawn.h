@@ -11,6 +11,7 @@ public:
 	~CPawn();
 
 public:
+	/*
 	void	ItemTest() { m_lister(); }
 	void	boolTest(bool b) { m_lister2(b); }
 	void	PointerTest(Cindependent* pPointer) { m_lister3(pPointer); }
@@ -46,7 +47,9 @@ public:
 		m_lister4.push_back(listner);
 	}
 
+	이걸 관리하는 매니져를 만들어야됌
 
+	*/
 private:
 	std::function<void(void)> m_lister = [] {};
 	std::function<void(bool)> m_lister2 = [](bool b=false) {};

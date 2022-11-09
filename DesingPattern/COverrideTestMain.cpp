@@ -46,8 +46,6 @@ int main()
 	CItem2* pItem2 = new CItem2;
 	CItem3* pItem3 = new CItem3;
 	
-	
-
 
 	pItem1->Set_Pawn(pPawn);
 	pItem1->initialize_Item();
