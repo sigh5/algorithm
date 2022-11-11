@@ -180,5 +180,11 @@
     <ClCompile Include="정수삼각형.cpp">
       <Filter>Source Files\DP</Filter>
     </ClCompile>
+    <ClCompile Include="나이트의이동.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="연속합.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
