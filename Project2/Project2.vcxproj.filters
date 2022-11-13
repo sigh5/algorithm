@@ -186,5 +186,11 @@
     <ClCompile Include="연속합.cpp">
       <Filter>Source Files\DP</Filter>
     </ClCompile>
+    <ClCompile Include="알파벳.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="파도반수열.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
