@@ -204,5 +204,11 @@
     <ClCompile Include="피보나치수2.cpp">
       <Filter>Source Files\DP</Filter>
     </ClCompile>
+    <ClCompile Include="트리의 부모찾기.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="2n타일링_2cpp.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
