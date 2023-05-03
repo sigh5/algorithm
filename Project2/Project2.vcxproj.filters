@@ -237,5 +237,11 @@
     <ClCompile Include="줄세우기1.cpp">
       <Filter>Source Files\Graph</Filter>
     </ClCompile>
+    <ClCompile Include="로또_1.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="부분수열의합.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
