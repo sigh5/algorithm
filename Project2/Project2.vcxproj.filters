@@ -243,5 +243,17 @@
     <ClCompile Include="부분수열의합.cpp">
       <Filter>Source Files\자잘한 연습</Filter>
     </ClCompile>
+    <ClCompile Include="부분수열의합_2.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="연산자 끼워넣기.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="연산자끼워넣기_2.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="테트로미노.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
