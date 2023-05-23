@@ -264,5 +264,8 @@
     <ClCompile Include="N_Queen.cpp">
       <Filter>Source Files\자잘한 연습</Filter>
     </ClCompile>
+    <ClCompile Include="스도쿠.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
