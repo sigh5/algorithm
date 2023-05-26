@@ -291,5 +291,14 @@
     <ClCompile Include="Test.cpp">
       <Filter>Source Files\자잘한 연습</Filter>
     </ClCompile>
+    <ClCompile Include="이진탐색(이분탐색).cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="해시_포켓몬.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="완주하지못한선수.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
