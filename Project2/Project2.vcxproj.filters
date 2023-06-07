@@ -321,5 +321,14 @@
     <ClCompile Include="완주하지못한선수.cpp">
       <Filter>코테전볼것들</Filter>
     </ClCompile>
+    <ClCompile Include="입국심사.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="공유기 설치cpp.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="게임맵최단거리.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
