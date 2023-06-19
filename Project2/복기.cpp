@@ -7,13 +7,27 @@ using namespace std;
 class CBase
 {
 public:
+	CBase() { cout << "베이스 생성자" << endl; }
+	CBase(CBase& rhs) { cout << "복사생성자" << endl; }
 	virtual void foo() { cout << "Base" << endl; }
+
+	virtual void Resize() { cout << "Base" << endl; }
 	void		boo() { cout << "Base_boo" << endl; }
 };
 
 class CDerived : public CBase
 {
 public:
+
+	virtual void Resize() {
+
+		static_cast<CBase>(*this).Resize(); 
+		// 캐스팅을 사용하면 임시객체를 만든후 호출한거임
+		// 필요없는 복사 생성자 호출
+		// 잘못된 캐스팅의 예
+		cout << "??" << endl;
+
+	}
 	virtual void foo() { cout << "CDerived" << endl; }
 	void		 boo() { cout << "CDerived_boo" << endl; }
 };
@@ -62,15 +76,16 @@ int main()
 	derived->boo();
 	Base->boo();*/
 
-	int i = 1, j = -1;
+	//int i = 1, j = -1;
 
-	int* Pi = &i;
-	int* Pj = &j;
+	//int* Pi = &i;
+	//int* Pj = &j;
 
-	//foo(*Pi, *Pj);
-	boo(&Pi, &Pj);
+	////foo(*Pi, *Pj);
+	//boo(&Pi, &Pj);
 
-	cout << *Pi << " " << *Pj;
+	//cout << *Pi << " " << *Pj;
 
-
+	CDerived de;
+	de.Resize();
 }
