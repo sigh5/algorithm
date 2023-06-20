@@ -354,5 +354,17 @@
     <ClCompile Include="연속된 수열의합.cpp">
       <Filter>Source Files\자잘한 연습</Filter>
     </ClCompile>
+    <ClCompile Include="1094_막대기.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="과제진행하기.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="광물캐기.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="상속.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
