@@ -31,6 +31,9 @@
     <Filter Include="코테전볼것들">
       <UniqueIdentifier>{7369b64f-60eb-4bf8-aa43-321ece153f62}</UniqueIdentifier>
     </Filter>
+    <Filter Include="프로그래머스">
+      <UniqueIdentifier>{7449980b-9a7c-42f1-8bf1-10be3b559ced}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HeapTree.cpp">
@@ -365,6 +368,15 @@
     </ClCompile>
     <ClCompile Include="상속.cpp">
       <Filter>코테전볼것들</Filter>
+    </ClCompile>
+    <ClCompile Include="리코챗로봇.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 getline으로 나누기.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="두용액.cpp">
+      <Filter>프로그래머스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
