@@ -378,5 +378,29 @@
     <ClCompile Include="두용액.cpp">
       <Filter>프로그래머스</Filter>
     </ClCompile>
+    <ClCompile Include="연속펄스부분수열의합.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="틱택토.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="미로탈출.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP문자열알고리즘.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
+    <ClCompile Include="보비무어알고리즘.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
+    <ClCompile Include="내가정리한보이어무어알고리즘.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="1786_찾기.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="호텔대실.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

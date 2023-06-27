@@ -32,36 +32,67 @@ public:
 	void		 boo() { cout << "CDerived_boo" << endl; }
 };
 
-struct A				// 가장 큰 값을 기준으로 하니씩 쌓인다.
+//struct A				// 가장 큰 값을 기준으로 하니씩 쌓인다.
+//{
+//	char _a;		// 8
+//	double _b;		// 8
+//	int		_c;     
+//	short	_d;
+//	float   _f;
+//};
+//
+//struct B
+//{
+//	A _a;
+//	bool b;
+//};
+//
+//void foo(int& p, int& q)
+//{
+//	int* t = &p;
+//	p = q;
+//	q = *t;
+//	p = 3;
+//}
+//
+//void boo(int** p, int** q)
+//{
+//	int* t = *p;	// t는 주소값 *t 는 1
+//	*p = *q;		// 주소값 교체     **p는 -1 **q == -1
+//	*q = t;			// 주소값 1로 바뀜  **q == 1
+//	**p = 3;        // **p  ==3 
+//}
+
+
+class Test
 {
-	char _a;		// 8
-	double _b;		// 8
-	int		_c;     
-	short	_d;
-	float   _f;
+public:
+	Test(int a) { cout << " Test" << endl; }
+
 };
 
-struct B
+class Test_D :public Test
 {
-	A _a;
-	bool b;
+public:
+	Test_D(int a)
+		:Test(a)
+	{ cout << "TestD" <<endl; }
+
+
 };
 
-void foo(int& p, int& q)
+class Temp
 {
-	int* t = &p;
-	p = q;
-	q = *t;
-	p = 3;
-}
+public:
+	Temp()
+		:td(5)
+	{
+		cout << "Temp " << endl;
+	}
 
-void boo(int** p, int** q)
-{
-	int* t = *p;	// t는 주소값 *t 는 1
-	*p = *q;		// 주소값 교체     **p는 -1 **q == -1
-	*q = t;			// 주소값 1로 바뀜  **q == 1
-	**p = 3;        // **p  ==3 
-}
+private:
+	Test_D td;
+};
 
 
 
@@ -85,6 +116,9 @@ int main()
 	//boo(&Pi, &Pj);
 
 	//cout << *Pi << " " << *Pj;
+
+	Temp t;
+
 
 	CDerived de;
 	de.Resize();
