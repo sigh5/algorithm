@@ -63,14 +63,24 @@ int solution(vector<vector<int> > maps)
 }
 
 
+int foo(int a)
+{
+    return 0;
+}
+
+double foo(int a)
+{
+    return 0.0;
+}
+
 int main()
 {
     
     vector<vector<int> > maps{ {1,0,1,1,1} , {1,0,1,0,1} , {1,0,1,1,1} , {1,1,1,0,1}, {0,0,0,0,1} };
     
-    cout << solution(maps);
+   // cout << solution(maps);
     
-
+    foo(0.0);
 
 
 	return 0;

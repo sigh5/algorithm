@@ -50,7 +50,6 @@ void boo(int** p, int** q)
 }
 
 
-
 int main()
 {
 	/*CDerived* derived = new CDerived();
