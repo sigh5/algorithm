@@ -50,8 +50,8 @@ void My_Quick_Sort(int iStart, int iEnd)
 		return;
 
 	int Key = iStart, 
-		i = iStart + 1, 
-		j = iEnd, temp = 0;
+	i = iStart + 1, 
+	j = iEnd, temp = 0;
 
 	// iStart ++ 큰값 찾고  iEnd-- 에서 작은값을 찾는다.
 

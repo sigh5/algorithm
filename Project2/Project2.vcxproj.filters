@@ -31,6 +31,9 @@
     <Filter Include="코테전볼것들">
       <UniqueIdentifier>{7369b64f-60eb-4bf8-aa43-321ece153f62}</UniqueIdentifier>
     </Filter>
+    <Filter Include="프로그래머스">
+      <UniqueIdentifier>{7449980b-9a7c-42f1-8bf1-10be3b559ced}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HeapTree.cpp">
@@ -328,6 +331,75 @@
       <Filter>Source Files\자잘한 연습</Filter>
     </ClCompile>
     <ClCompile Include="게임맵최단거리.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="단어변환.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="베스트앨범.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="다리를지나는 트럭.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="주식연ㄴ습.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="파일명정리.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="예산.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="요격 시스템.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="연속된 수열의합.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="1094_막대기.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="과제진행하기.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="광물캐기.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="상속.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
+    <ClCompile Include="리코챗로봇.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 getline으로 나누기.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="두용액.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="연속펄스부분수열의합.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="틱택토.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="미로탈출.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP문자열알고리즘.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
+    <ClCompile Include="보비무어알고리즘.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
+    <ClCompile Include="내가정리한보이어무어알고리즘.cpp">
+      <Filter>Source Files\자잘한 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="1786_찾기.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="호텔대실.cpp">
       <Filter>Source Files\자잘한 연습</Filter>
     </ClCompile>
   </ItemGroup>
