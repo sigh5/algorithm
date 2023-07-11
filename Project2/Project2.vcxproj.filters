@@ -435,5 +435,14 @@
     <ClCompile Include="징검다리.cpp">
       <Filter>코테전볼것들</Filter>
     </ClCompile>
+    <ClCompile Include="hash.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
+    <ClCompile Include="조합문제.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
+    <ClCompile Include="점찍기.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
