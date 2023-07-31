@@ -402,5 +402,47 @@
     <ClCompile Include="호텔대실.cpp">
       <Filter>Source Files\자잘한 연습</Filter>
     </ClCompile>
+    <ClCompile Include="뒤에있는 큰 수 찾기.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자변환하기.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="시소짝궁.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="인사고과.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="테이블 해쉬함수.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector_Erase_ReMove.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="이진변환.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="디펜스게임.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP문자열알고리즘_복습.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
+    <ClCompile Include="입국심사_복습.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
+    <ClCompile Include="징검다리.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
+    <ClCompile Include="hash.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
+    <ClCompile Include="조합문제.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
+    <ClCompile Include="점찍기.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
