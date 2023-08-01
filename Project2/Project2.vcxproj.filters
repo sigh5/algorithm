@@ -444,5 +444,17 @@
     <ClCompile Include="점찍기.cpp">
       <Filter>코테전볼것들</Filter>
     </ClCompile>
+    <ClCompile Include="가장 긴 증가하는 부분수열2.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자카드 나누기.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="부대복귀.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="롤케이크자르기.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
