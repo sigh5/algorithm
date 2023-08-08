@@ -456,5 +456,14 @@
     <ClCompile Include="롤케이크자르기.cpp">
       <Filter>프로그래머스</Filter>
     </ClCompile>
+    <ClCompile Include="택배상자.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="연속부분수열의합.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="혼자놀기의달인.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
