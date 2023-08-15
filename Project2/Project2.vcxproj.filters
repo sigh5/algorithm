@@ -465,5 +465,20 @@
     <ClCompile Include="혼자놀기의달인.cpp">
       <Filter>프로그래머스</Filter>
     </ClCompile>
+    <ClCompile Include="할인행사.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="등산코스정하기.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp.cpp">
+      <Filter>코테전볼것들</Filter>
+    </ClCompile>
+    <ClCompile Include="Sour.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="아이템줍기.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
